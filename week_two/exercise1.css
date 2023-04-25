@@ -1,0 +1,26 @@
+.part1{
+    color:red
+}
+
+.part1 p{
+    background-color: black;
+    color:white
+}
+
+.part2{
+    color:green
+}
+
+.part2{
+    color: green;
+    color:darkslategray
+}
+
+
+.part3{
+    color: green;
+}
+
+#greenp{
+    color: green;
+}
