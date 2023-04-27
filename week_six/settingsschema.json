@@ -1,0 +1,21 @@
+{
+	"$schema": "https://json-schema.org/draft/2019-09/schema",
+    "title":"Settings Report",
+	"description":"Report of rare animal seightings in Exland",
+    "type":"object",  
+    "properties": {"settings":{"type":"array", "items":{
+        "type":"object", 
+        "properties":{
+            "id":{"type":"number"}, 
+            "animal":{"type":"string", "enum":["Beaver", "Hare", "Goat"]},
+            "number":{"type":"number"}, 
+            "date":{"type":"string"}, 
+            "time":{"type":"string"}, 
+            "observer":{"type":"object", "properties":{
+                "name":{"type":"string"}, 
+                "email":{"type":"string"}
+            }}, 
+            "observations": {"type":"string"}
+        }
+    }}} 
+}

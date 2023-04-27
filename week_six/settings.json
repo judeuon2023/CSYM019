@@ -1,0 +1,45 @@
+{
+	"settings": [{
+			"id": 1,
+			"animal": "Beaver",
+			"location": "Marshall Woors",
+			"date": "2015-09-24",
+			"time": "90:30:00",
+			"observer": {
+				"name": "Gregory Dimitradis",
+				"email": "gdim@yahoo.com"
+			},
+			"observation": "some sample texts"
+
+		},
+
+		{
+			"id": 2,
+			"animal": "Hare",
+			"location": "Marshall Woors",
+			"date": "2015-09-24",
+			"time": "90:30:00",
+			"observer": {
+				"name": "Gregory Dimitradis",
+				"email": "gdim@yahoo.com"
+			},
+			"observation": "some sample texts"
+
+		},
+
+
+		{
+			"id": 3,
+			"animal": "Goat",
+			"location": "Marshall Woors",
+			"date": "2015-09-24",
+			"time": "90:30:00",
+			"observer": {
+				"name": "Gregory Dimitradis",
+				"email": "gdim@yahoo.com"
+			},
+			"observation": "some sample texts"
+
+		}
+	]
+}
